@@ -9,7 +9,7 @@
 }
 
 body {
-    background: url(../img/fundo.jpg);
+    background: url(../assets/img/fundo.jpg);
     background-position: center center;
     background-size: cover cover;
     padding: 0;
@@ -29,8 +29,10 @@ main {
     gap: 1vw;
 }
 
+/****************************** ROBOTRON *****/
+
 .robotron {
-    background: url(../img/estrutura.png) no-repeat;
+    background: url(../assets/img/estrutura.png) no-repeat;
     background-position: center center;
     margin: 0;
     flex-basis: 40%;
@@ -63,6 +65,18 @@ main {
     clip-path: polygon(calc(100% - 30px) 0, 100% 30px, 100% calc(100% - 30px), calc(100% - 30px) 100%, 30px 100%, 0 calc(100% - 30px), 0 30px, 30px 0);
     border-left: 5px solid var(--main-cinza);
     height: 80%;
+}
+
+.alterar {
+    margin: 2px;
+    width: 200px;
+}
+
+.botoes {
+   position: relative;
+   right: 5%;
+   bottom: 10%;
+   display: flex;
 }
 
 /****************************** Equipamentos *****/
